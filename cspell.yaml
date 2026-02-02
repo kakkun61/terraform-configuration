@@ -1,0 +1,28 @@
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: "0.2"
+words:
+  - aspmx
+  - atproto
+  - bsky
+  - cfargotunnel
+  - cloudflared
+  - dmarc
+  - dnslink
+  - domainkey
+  - doujin
+  - googledomains
+  - googlehosted
+  - kakkun
+  - pdfding
+  - squarespace
+ignoreWords:
+  - fddo
+  - yuqduqu
+ignoreRegExpList:
+  - "[a-zA-Z0-9\\-\\:]{15,}" # 長い英数字列
+ignorePaths:
+  - .gitignore
+  - .terraform
+  - .terraform.lock.hcl
+  - terraform.tfstate*
+  - cspell*
